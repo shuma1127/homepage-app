@@ -1,0 +1,2 @@
+class HairController < ApplicationController
+end
