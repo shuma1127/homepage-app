@@ -1,62 +1,98 @@
-body {
+.hair {
   background-color: #f0f0f0;
   font-size: 14px;
   color: #333;
   margin: 0 auto;
-}
-h1,h2,h3,h4,h5,h6,p {
-  padding: 10px 0;
-  margin: 0;
-}
 
-header {
-  background-color: pink;
-  height: 150px;
-  
-}
 
-.heading {
-  height: 100px;
-  width: 960px;
-  background-color: limegreen;
-  margin: 0 auto;
-}
+  h1,h2,h3,h4,h5,h6,p {
+    padding: 10px 0;
+    margin: 0;
+  }
 
-.navbar {
-  height: 50px;
-  width: 960px;
-  background-color: violet;
-  margin: 0 auto;
-}
+  header {
+    margin-top: 10px;
+  }
 
-.contents {
-  /* 子要素に合わせて大きさを変動させるためにheightを削除 */
-  width: 960px;
-  background-color: skyblue;
-  margin: 0 auto;
-}
+  .heading {
+    width: 960px;
+    margin: 0 auto;
+  }
 
-.left-content {
-  height: 400px;
-  width: 640px;
-  background-color: #ffffff;
-  float: left;
-}
+  .navbar {
+    height: 20px;
+    width: 930px;
+    background-color:#ffffff;
+    margin: 0 auto;
+    padding: 15px;
+  }
 
-.right-content {
-  height: 370px;
-  width: 320px;
-  background-color: #f9f9f9;
-  float: left;
-}
+  .contents {
+    width: 960px;
+    margin: 10px auto;
+  }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
-}
+  .left-content {
+    height: 400px;
+    width: 640px;
+    background-color: #ffffff;
+    float: left;
+    padding: 10px;
+  }
 
-footer {
-  background-color: pink;
-  height: 50px;
+  .right-content {
+    height: 400px;
+    width: 280px;
+    background-color: #f9f9f9;
+    float: left;
+    padding: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .title {
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+  .heading-sentence {
+    font-size: 18px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    float: left;
+    padding-right: 10px;
+  }
+
+  td {
+    margin: 0;
+    padding-left: 10px;
+    line-height: 30px;
+  }
+
+  .stylist-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .stylist-name {
+    font-size: 16px;
+    text-align: center;
+  }
+
 }
