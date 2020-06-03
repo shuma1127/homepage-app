@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   end
   resources :hair, only: [:index] do
   end
+  resources :modern, only: [:index] do
+  end
 end
