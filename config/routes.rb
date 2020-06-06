@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   end
   resources :modern, only: [:index] do
   end
-  resources :notes, only: [:index] do
+  resources :notes, only: [:index, :new] do
   end
 end
