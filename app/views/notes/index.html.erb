@@ -1,1 +1,5 @@
- <%= link_to "新規メモ", new_note_path , class: "hair" %>
+<%= link_to "新規メモ", new_note_path , class: "hair" %>
+<%= form_tag('/posts', method: :post) do %> 
+  <input type="text" name="content"> 
+  <input type="submit" value="投稿する">
+<% end %>
